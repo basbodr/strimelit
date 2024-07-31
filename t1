@@ -1,0 +1,8 @@
+from inference_sdk import InferenceHTTPClient
+
+CLIENT = InferenceHTTPClient(
+    api_url="https://detect.roboflow.com",
+    api_key="00DqgsxkFjdJxikiyUSs"
+)
+
+result = CLIENT.infer(test/images/one.jpg, model_id="ppe-oicju/1")

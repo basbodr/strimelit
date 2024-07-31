@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['Not-Wearing-Safety-Boots', 'Not-Wearing-Safety-Glasses', 'Not-Wearing-Safety-Gloves', 'Not-Wearing-Safety-Helmet', 'Not-Wearing-Safety-Vest', 'Person', 'Safety-Boots', 'Safety-Glasses', 'Safety-Gloves', 'Safety-Helmet', 'Safety-Vest']
+
+roboflow:
+  workspace: ai-workforce-safety-system
+  project: ai-workforce-safety-system-2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-workforce-safety-system/ai-workforce-safety-system-2/dataset/1
